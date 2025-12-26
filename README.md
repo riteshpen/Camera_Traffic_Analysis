@@ -9,6 +9,10 @@
 
 This project investigates the **factors associated with average vehicle speeds at intersections in Austin, Texas**. Using traffic count data and weather/temporal variables, we explore which conditions are linked with higher or lower traffic speeds and offer insights that may help **inexperienced drivers make safer decisions**.
 
+
+<img width="193" height="122" alt="Image" src="https://github.com/user-attachments/assets/0309eef7-8871-40ae-83fb-4ba305050e99" />
+
+
 The work consists of:
 - **Exploratory Data Analysis**
 - **Predictive Modeling** (Ridge Regression & Random Forest)

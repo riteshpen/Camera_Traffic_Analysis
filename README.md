@@ -28,8 +28,6 @@ The dataset used is **too large for GitHub** and is hosted on Google Drive.
 🔗 *Camera Traffic Counts & related files*  
 👉 https://drive.google.com/drive/u/3/folders/1osDlrN4x127uuhuqeRXGJaXXZ2Ig7znp
 
-> Make sure the folder is set to “Anyone with the link can view” so that collaborators and reviewers can access it without signing in. :contentReference[oaicite:0]{index=0}
-
 ---
 
 ## 🧠 High-Level Findings

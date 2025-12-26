@@ -60,9 +60,10 @@ Traffic speed at intersections is primarily driven by **immediate past condition
 
 ## 📁 Repository Contents
 
+- **Datasets** - downloads for the available datasets used in this project
 - **EDA Notebooks** – data exploration and visualization
 - **Modeling Scripts** – training & evaluation
-- **Results & Figures** – graphs and summary tables
+- **Results & Figures** – graphs and summary tables 
 - **Final Report** – detailed write-up
 
 ---

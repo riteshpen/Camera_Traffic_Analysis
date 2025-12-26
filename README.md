@@ -11,7 +11,7 @@ This project investigates the **factors associated with average vehicle speeds a
 
 
 <img width="193" height="122" alt="Image" src="https://github.com/user-attachments/assets/0309eef7-8871-40ae-83fb-4ba305050e99" />
-
+<img width="686" height="382" alt="Image" src="https://github.com/user-attachments/assets/4628c0be-e2eb-4b2b-bf19-af28acd9edb9" />
 
 The work consists of:
 - **Exploratory Data Analysis**

@@ -1,9 +1,14 @@
-### Dataset Download
+## Dataset
 
-The dataset is hosted externally due to size constraints:
+The full dataset is approximately 2.2 GB and cannot be hosted directly on GitHub.
 
-[Camera_Traffic Dataset (Google Drive)](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw)
+### Download Instructions
 
-> ⚠️ This file is large and may take several minutes to download.
+1.  **Download the file:**  
+    Go to the [Camera_Traffic Dataset folder on Google Drive](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) and download the required file(s).
 
-> Pending: The download files need to be organized. 
+2.  **Place the file in the project:**  
+    Move the downloaded file(s) into the main project directory (the same folder as this README file).
+
+3.  **Run the code:**  
+    The project scripts are now ready to use the dataset.

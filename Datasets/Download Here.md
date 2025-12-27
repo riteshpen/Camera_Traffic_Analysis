@@ -7,10 +7,10 @@ The full datasets are approximately 3 GB and cannot be hosted directly on GitHub
 | File Name | Description | Size | Direct Download |
 | :--- | :--- | :--- | :--- |
 | `Austin 2019-01-01 to 2023-07-22.csv` | Granular, localized weather observations for Austin, TX. | **486 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
-| `data.csv` | Standardized daily weather summaries from official stations. | **766 KB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
-| `emissions.csv` | Tracks energy consumption & carbon emissions from model runs. | **3 KB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
-| `Camera_Traffic_Counts_sample.csv` | Core traffic analysis data (sample). | **156 KB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
-| `Camera_Traffic_Counts2_20250918.csv` | Full core traffic analysis dataset (main file). | **2.33 GB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
+| `data.csv` | Standardized daily weather summaries from official stations. | **766 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
+| `emissions.csv` | Tracks energy consumption & carbon emissions from model runs. | **3 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
+| `Camera_Traffic_Counts_sample.csv` | Core traffic analysis data (sample). | **156 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
+| `Camera_Traffic_Counts2_20250918.csv` | Full core traffic analysis dataset (main file). | **2.33 GB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
 
 ## 📊 Dataset Descriptions
 

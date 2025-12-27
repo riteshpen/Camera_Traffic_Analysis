@@ -54,6 +54,5 @@ A 100-row sample (`sample_data.csv`) is included in the `data/` directory for te
 1. **Temporal Patterns**: Speed gradually decreases through the week; significantly slower during rush hours
 2. **Volume Differences**: Weekend driving is less frequent but more variable
 3. **Heavy Vehicle Effect**: Presence correlates with higher speeds at turns
-4. **Feature Relationships**: Volume and speed show moderate positive correlation (0.32)
+4. **Feature Relationships**: Volume and speed show a moderate positive correlation (0.32)
 
-## 📁 Repository Structure

@@ -1,6 +1,6 @@
 ## Dataset
 
-The full dataset is approximately 2.2 GB and cannot be hosted directly on GitHub.
+The full datasets are approximately 3 GB and cannot be hosted directly on GitHub.
 
 ### Download Instructions
 

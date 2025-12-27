@@ -78,5 +78,3 @@ This repository contains predictive models for analyzing factors that influence 
 - **RMSE**: Primary metric (penalizes large errors)
 - **R²**: Explanatory power assessment
 - **Energy Consumption**: Environmental impact consideration
-
-## 📁 Repository Structure

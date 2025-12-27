@@ -27,7 +27,7 @@ The dataset used is **too large for GitHub** and is hosted on Google Drive.
 **Download here:**  
 🔗 *Camera Traffic Counts & related files*  
 - 👉 https://drive.google.com/drive/u/3/folders/1osDlrN4x127uuhuqeRXGJaXXZ2Ig7znp
-- 👉 Check Releases in this Repository for the rest of the datasets not shown in Google Drive
+- 👉 Check the Releases or Datasets folder in this Repository to have access to the datasets used in this project
 ---
 
 ## 🧠 High-Level Findings

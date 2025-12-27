@@ -102,5 +102,3 @@ This repository contains the final report, presentation, and complete analysis o
 2. **Additional Features**: Road characteristics, nearby developments
 3. **Real-Time Application**: Integration with traffic management systems
 4. **Comparative Studies**: Other cities with similar intersection data
-
-## 📁 Repository Structure

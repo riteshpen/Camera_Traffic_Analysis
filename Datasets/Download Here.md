@@ -2,16 +2,15 @@
 
 The full datasets are approximately 3 GB and cannot be hosted directly on GitHub.
 
-### Download Instructions
+### Download Details
 
-1.  **Download the file:**  
-    Go to the [Camera_Traffic Dataset folder on Google Drive](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) and download the required file(s).
-
-2.  **Place the file in the project:**  
-    Move the downloaded file(s) into the main project directory (the same folder as this README file).
-
-3.  **Run the code:**  
-    The project scripts are now ready to use the dataset.
+| File Name | Description | Size | Direct Download |
+| :--- | :--- | :--- | :--- |
+| `Austin 2019-01-01 to 2023-07-22.csv` | Granular, localized weather observations for Austin, TX. | **486 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
+| `data.csv` | Standardized daily weather summaries from official stations. | **766 KB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
+| `emissions.csv` | Tracks energy consumption & carbon emissions from model runs. | **3 KB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
+| `Camera_Traffic_Counts_sample.csv` | Core traffic analysis data (sample). | **156 KB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
+| `Camera_Traffic_Counts2_20250918.csv` | Full core traffic analysis dataset (main file). | **2.33 GB** | [📥 Download](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing) |
 
 ## 📊 Dataset Descriptions
 

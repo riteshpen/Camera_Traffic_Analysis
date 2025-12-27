@@ -1,83 +1,59 @@
-# Camera_Traffic_Analysis
+# 🚦 Austin Traffic: Exploratory Data Analysis
 
-**Traffic Speed Analysis at Austin Intersections**  
-*By Team 11:* Ritesh Penumatsa, John Trelford, Lucas Chiang, Travis Welsh, and Brian Pham
+## 📋 Project Overview
+This repository contains the exploratory data analysis for the Austin Camera Traffic Counts project, analyzing 14.7 million traffic observations from 2019 to understand patterns in vehicle speeds and volumes at intersections.
 
----
+## 📊 Dataset
+- **Source**: GRIDSMART optical detectors at Austin intersections
+- **Time Period**: January 1, 2019 - December 31, 2019
+- **Original Size**: 82.1 million rows (filtered to 14.7 million)
+- **Filtering Rationale**: Avoids COVID-19 pandemic effects and computational constraints
 
-## 📌 Project Summary
+### Data Access
+The full dataset is available via [Google Drive](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw).
 
-This project investigates the **factors associated with average vehicle speeds at intersections in Austin, Texas**. Using traffic count data and weather/temporal variables, we explore which conditions are linked with higher or lower traffic speeds and offer insights that may help **inexperienced drivers make safer decisions**.
+A 100-row sample (`sample_data.csv`) is included in the `data/` directory for testing.
 
+## 🔍 Key Hypotheses Tested
 
-<img width="400" height="300" alt="Image" src="https://github.com/user-attachments/assets/0309eef7-8871-40ae-83fb-4ba305050e99" />
-<img width="686" height="382" alt="Image" src="https://github.com/user-attachments/assets/4628c0be-e2eb-4b2b-bf19-af28acd9edb9" />
+### Hypothesis 1: "People tend to drive slower toward the end of the week"
+- **Method**: Daily average speed comparison
+- **Finding**: Speed decreases from Monday (17.20 mph) to Sunday (16.89 mph)
+- **Visualization**: `figures/speed_by_day_of_week.png`
 
-The work consists of:
-- **Exploratory Data Analysis**
-- **Predictive Modeling** (Ridge Regression & Random Forest)
-- **Final Report and Interpretation**
+### Hypothesis 2: "People tend to drive less on weekends"
+- **Method**: Two-sample t-test comparing weekday vs. weekend volumes
+- **Finding**: Significant difference (p < 0.05) with lower mean volume on weekends (22.17 vs. 26.87)
+- **Visualization**: `figures/volume_distribution_weekday_vs_weekend.png`
 
----
+### Hypothesis 3: "Vehicles drive more slowly during rush hours"
+- **Method**: One-tailed t-test comparing rush hour (7-9 AM, 4-7 PM) vs. non-rush hour speeds
+- **Finding**: Overwhelming evidence (p ≈ 2.2e-192) supporting slower speeds during rush hours
+- **Visualization**: `figures/speed_by_hour.png`
 
-## 📥 Dataset Access
+### Hypothesis 4: "Cars move faster at turns when heavy vehicles are present"
+- **Method**: Welch's t-test on turning intersections only
+- **Finding**: Statistical evidence (p ≈ 0.0) supporting faster speeds when heavy vehicles are present
+- **Visualization**: `figures/turn_speed_heavy_vehicle.png`
 
-The dataset used is **too large for GitHub** and is hosted on Google Drive.
+## 🛠️ Technical Implementation
 
-**Download here:**  
-🔗 *Camera Traffic Counts & related files*  
-- 👉 https://drive.google.com/drive/u/3/folders/1osDlrN4x127uuhuqeRXGJaXXZ2Ig7znp
-- 👉 Check the Releases or Datasets folder in this Repository to have access to the datasets used in this project
----
+### Statistical Analysis
+- **T-tests**: For comparing group means
+- **Box plots**: For distribution visualization
+- **Correlation matrix**: For identifying relationships between numeric features
 
-## 🧠 High-Level Findings
+### Key Features Analyzed
+- `Speed Average (Miles Per Hour)`: Primary speed metric
+- `Volume`: Vehicle count per 15-minute interval
+- `Heavy Vehicle`: Boolean for vehicles ≥17 feet
+- `Day of Week`, `Hour`: Temporal features
+- `Direction`, `Movement`: Spatial and turning features
 
-- **Recent traffic history** (lagged speeds & volumes) strongly predicts current average speed.
-- **Temporal factors** (time of day, day of week) influence speeds.
-- **Weather effects** (rain, wind, visibility) have minimal influence in short 15-minute periods.
-- Both Ridge Regression and Random Forest models confirm similar patterns, with the Random Forest showing more explanatory power.
+## 📈 Results Summary
+1. **Temporal Patterns**: Speed gradually decreases through the week; significantly slower during rush hours
+2. **Volume Differences**: Weekend driving is less frequent but more variable
+3. **Heavy Vehicle Effect**: Presence correlates with higher speeds at turns
+4. **Feature Relationships**: Volume and speed show moderate positive correlation (0.32)
 
----
-
-## 🛠 Modeling Overview
-
-**Models Used**
-- **Ridge Regression:** Interpretable linear model with regularization.
-- **Random Forest:** Captures non-linear patterns and feature importance.
-
-**Evaluation**
-- Metrics: R² and RMSE on validation/test sets.
-- Ridge Regression achieved moderate explanatory power.
-- Random Forest showed stronger performance, highlighting the significance of lagged traffic history.
-
----
-
-## 🧩 Key Insight
-
-Traffic speed at intersections is primarily driven by **immediate past conditions** rather than broader environmental or calendar features. Drivers should be aware that heavy congestion or high recent speeds are indicators of continued high speed or unstable driving conditions.
-
----
-
-## 📁 Repository Contents
-
-- **Datasets** - downloads for the available datasets used in this project
-- **EDA Notebooks** – data exploration and visualization
-- **Modeling Scripts** – training & evaluation
-- **Results & Figures** – graphs and summary tables 
-- **Final Report** – detailed write-up
-
----
-
-## 🧑‍🤝‍🧑 Team
-
-Ritesh Penumatsa · John Trelford · Lucas Chiang · Travis Welsh · Brian Pham
-
----
-
-## 📄 References
-
-- Austin Camera Traffic Counts dataset (City of Austin Open Data)  
-  https://data.austintexas.gov/Transportation-and-Mobility/Camera-Traffic-Counts/sh59-i6y9
-
----
-
+## 📁 Repository Structure

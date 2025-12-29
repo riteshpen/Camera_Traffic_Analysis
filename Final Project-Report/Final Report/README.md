@@ -13,11 +13,19 @@ This repository contains the final report, presentation, and complete analysis o
 
 ## 📊 Dataset & Methodology
 
-### Data Sources
-- **Camera Traffic Counts**: Austin intersections via GRIDSMART optical detectors
-- **Weather Data**: Visual Crossing Weather API
-- **Time Period**: 2019 only (excludes COVID-19 effects)
-- **Sample Size**: 14.7 million rows (filtered from 82.1 million)
+#### Camera Traffic Counts
+- **File**: `Camera_Traffic_Counts2_20250918.csv`
+- **Source**: GRIDSMART optical detectors at Austin intersections
+- **Description**: 15-minute interval traffic counts by intersection
+- **Original Size**: 82.1 million rows (2014–2023)
+- **Filtered To**: 14,717,624 rows from 2019 only
+
+#### Weather Data
+- **File**: `Austin 2019-01-01 to 2023-07-22.csv`
+- **Source**: Austin weather forecasts
+- **Description**: Daily climate conditions
+- **Original Size**: 1,665 rows
+- **Filtered To**: January 1, 2019 – December 31, 2019
 
 ### Analytical Approach
 1. **Exploratory Analysis**: Hypothesis-driven evaluation of temporal traffic patterns

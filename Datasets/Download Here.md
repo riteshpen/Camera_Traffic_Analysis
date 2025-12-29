@@ -11,6 +11,7 @@ The full datasets are approximately 3 GB and cannot be hosted directly on GitHub
 | `emissions.csv` | Tracks energy consumption & carbon emissions from model runs. | **3 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
 | `Camera_Traffic_Counts_sample.csv` | Core traffic analysis data (sample). | **156 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
 | `Camera_Traffic_Counts2_20250918.csv` | Full core traffic analysis dataset (main file). | **2.33 GB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
+| `Traffic_Detectors_20250918.csv` | Traffic Detectors Behavior and Insights | **921 KB** | [📥 Download](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw) |
 
 ## 📊 Dataset Descriptions
 

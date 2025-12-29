@@ -16,13 +16,11 @@ The most reliable way to view the SHAP plots is to run the code yourself:
 git clone https://github.com/yourusername/repo-name.git
 cd repo-name
 
-# Install dependencies
+# Install required packages
 pip install -r requirements.txt
 
-# Run the SHAP visualization script
-python scripts/shap_analysis.py
-# or open the Jupyter notebook
-jupyter notebook notebooks/shap_analysis.ipynb
+# Additional packages for SHAP visualization (if not in requirements.txt)
+pip install shap matplotlib seaborn ipywidgets jupyter
 ```
 ### Option 2: View Static Screenshots
 

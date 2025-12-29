@@ -13,14 +13,14 @@ This repository contains the final report, presentation, and complete analysis o
 
 ## 📊 Dataset & Methodology
 
-#### Camera Traffic Counts
+### Camera Traffic Counts
 - **File**: `Camera_Traffic_Counts2_20250918.csv`
 - **Source**: GRIDSMART optical detectors at Austin intersections
 - **Description**: 15-minute interval traffic counts by intersection
 - **Original Size**: 82.1 million rows (2014–2023)
 - **Filtered To**: 14,717,624 rows from 2019 only
 
-#### Weather Data
+### Weather Data
 - **File**: `Austin 2019-01-01 to 2023-07-22.csv`
 - **Source**: Austin weather forecasts
 - **Description**: Daily climate conditions

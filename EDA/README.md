@@ -12,8 +12,6 @@ This repository contains the exploratory data analysis for the Austin Camera Tra
 ### Data Access
 The full dataset is available via [Google Drive](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw).
 
-A 100-row sample (`sample_data.csv`) is included in the `data/` directory for testing.
-
 ## 🔍 Key Hypotheses Tested
 
 ### Hypothesis 1: "People tend to drive slower toward the end of the week."

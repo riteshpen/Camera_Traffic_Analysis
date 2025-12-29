@@ -26,4 +26,4 @@ jupyter notebook notebooks/shap_analysis.ipynb
 We've included static PNG exports of the key SHAP plots in the Visuals folder:
 - newplot (10).png - 
 - newplot (11).png
-- newplot(5).png - Comparison between Ridge Regression and Random Forest on R² and RMSE. 
+- newplot(5).png - Comparison between Ridge Regression and Random Forest on R² and RMSE

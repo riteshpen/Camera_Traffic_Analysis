@@ -12,35 +12,37 @@ This project investigates **factors driving traffic congestion at Austin interse
 ### Research Question
 **"What factors drive congestion at intersections?"**
 
----
-
-## 📊 Dataset Summary
-- **File**: Camera_Traffic_Counts2_20250918.csv
-- **Source**: GRIDSMART optical detectors at Austin intersections
-- **Time Period**: January 1, 2019 - December 31, 2019
-- **Original Size**: 82.1 million rows (filtered to 14.7 million)
-- **Filtering Rationale**: Avoids COVID-19 pandemic effects and computational constraints
----
-- **File**: Austin 2019-01-01 to 2023-07-22.csv
-- **Source**: Austin weather forecast
-- **Time Period**: January 1, 2019 - July 22, 2023 (filtered to stop at December 31, 2019)
-- **Original Size**: 1665 rows
-- **Filtering Rationale**: Avoids COVID-19 pandemic effects and computational constraints
-
-### Data Access
-The full dataset is available via [Google Drive](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw).
-
 ## 📊 Dataset Overview
 
-### Primary Data Sources
-- **Camera Traffic Counts**: 15-minute interval traffic data by intersection in Austin
-- **Visual Crossing Weather Data**: Austin climate conditions by day
+### Data Sources
 
-### Data Processing
-- **Original Size**: 82.1 million rows (2014-2023)
-- **Filtered to**: 14,717,624 rows from 2019 only
-- **Rationale**: Avoids COVID-19 pandemic interference and computational constraints
-- **Final Shape**: (14,717,624, 19)
+#### Camera Traffic Counts
+- **File**: `Camera_Traffic_Counts2_20250918.csv`
+- **Source**: GRIDSMART optical detectors at Austin intersections
+- **Description**: 15-minute interval traffic counts by intersection
+- **Original Size**: 82.1 million rows (2014–2023)
+- **Filtered To**: 14,717,624 rows from 2019 only
+
+#### Weather Data
+- **File**: `Austin 2019-01-01 to 2023-07-22.csv`
+- **Source**: Austin weather forecasts
+- **Description**: Daily climate conditions
+- **Original Size**: 1,665 rows
+- **Filtered To**: January 1, 2019 – December 31, 2019
+
+---
+
+### Data Processing & Filtering
+- **Time Period Used**: January 1, 2019 – December 31, 2019
+- **Filtering Rationale**: Excludes COVID-19 pandemic effects and reduces computational overhead
+- **Final Dataset Shape**: (14,717,624, 19)
+
+---
+
+### Data Access
+The full dataset is available via **Google Drive**:  
+https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw
+
 
 ### Target Variable
 - **Volume**: Number of vehicles in 15-minute intervals

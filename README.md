@@ -32,9 +32,9 @@ Austin_Traffic_Analysis/
 │ ├── Code/
 │ │ ├── Final_Project.ipynb # Main project notebook
 │ │ └── Visuals/ # Generated visualizations
-│ │ ├── newplot (5).png
-│ │ ├── newplot (10).png
-│ │ └── newplot (11).png
+│ │ │ ├── newplot (5).png
+│ │ │ ├── newplot (10).png
+│ │ │ └── newplot (11).png
 │ ├── Presentation/
 │ │ ├── Group 11 Final Project.pdf
 │ │ └── Group 11 Final Project.pptx
@@ -43,16 +43,17 @@ Austin_Traffic_Analysis/
 ├── Final Report/ # Comprehensive report
 │ ├── Code/
 │ │ └── final_project.py # Production-ready analysis script
-│ ├── Visuals/ # All model outputs and figures
-│ │ ├── best_average_speed_model.pkl
-│ │ ├── feature_importance.png
-│ │ ├── prediction_vs_actual.png
-│ │ ├── rf_feature_importance.png
-│ │ ├── ridge_coefficients.png
-│ │ └── shap_summary.png
+│ │ └── Visuals/ # All model outputs and figures
+│ │ | └── best_average_speed_model.pkl
+│ │ | └── feature_importance.png
+│ │ | └── prediction_vs_actual.png
+│ │ | └── rf_feature_importance.png
+│ │ | └── ridge_coefficients.png
+│ │ | └── shap_summary.png
 │ ├── README.md # Report summary and findings
-│ ├── Team 11 - Final Report.pdf
-│ └── team 11 - final report_.docx
+│ ├── Report/
+│ │ └── Team 11 - Final Report.pdf # Production-ready analysis script
+│ │ └── team 11 - final report_.docx
 ```
 
 ## 📊 Project Overview

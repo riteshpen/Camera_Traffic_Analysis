@@ -14,6 +14,22 @@ This project investigates **factors driving traffic congestion at Austin interse
 
 ---
 
+## 📊 Dataset
+- **File**: Camera_Traffic_Counts2_20250918.csv
+- **Source**: GRIDSMART optical detectors at Austin intersections
+- **Time Period**: January 1, 2019 - December 31, 2019
+- **Original Size**: 82.1 million rows (filtered to 14.7 million)
+- **Filtering Rationale**: Avoids COVID-19 pandemic effects and computational constraints
+---
+- **File**: Austin 2019-01-01 to 2023-07-22.csv
+- **Source**: Austin weather forecast
+- **Time Period**: January 1, 2019 - July 22, 2023 (filtered to stop at December 31, 2019)
+- **Original Size**: 1665 rows
+- **Filtering Rationale**: Avoids COVID-19 pandemic effects and computational constraints
+
+### Data Access
+The full dataset is available via [Google Drive](https://drive.google.com/drive/u/3/folders/1MASJueZORSwywnJHiAhAmR_5JKQCizZw).
+
 ## 📊 Dataset Overview
 
 ### Primary Data Sources

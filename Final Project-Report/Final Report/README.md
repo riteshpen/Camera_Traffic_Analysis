@@ -13,16 +13,16 @@ This repository contains the final report, presentation, and complete analysis o
 
 ## 📊 Dataset & Methodology
 
-### Data Source
-- **Primary**: Austin Camera Traffic Counts (GRIDSMART detectors)
-- **Time Period**: 2019 only (avoids COVID-19 effects)
-- **Sample Size**: 14.7 million rows (from original 82.1 million)
-- **Weather Data**: Visual Crossing weather API
+### Data Sources
+- **Camera Traffic Counts**: Austin intersections via GRIDSMART optical detectors
+- **Weather Data**: Visual Crossing Weather API
+- **Time Period**: 2019 only (excludes COVID-19 effects)
+- **Sample Size**: 14.7 million rows (filtered from 82.1 million)
 
 ### Analytical Approach
-1. **Exploratory Analysis**: Hypothesis testing of temporal patterns
-2. **Predictive Modeling**: Ridge Regression vs. Random Forest
-3. **Interpretation**: Feature importance and practical implications
+1. **Exploratory Analysis**: Hypothesis-driven evaluation of temporal traffic patterns
+2. **Predictive Modeling**: Comparison of Ridge Regression and Random Forest models
+3. **Interpretation**: Feature importance analysis and real-world implications
 
 ## 🔑 Key Findings
 

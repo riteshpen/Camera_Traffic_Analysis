@@ -14,7 +14,7 @@ This project investigates **factors driving traffic congestion at Austin interse
 
 ---
 
-## 📊 Dataset
+## 📊 Dataset Summary
 - **File**: Camera_Traffic_Counts2_20250918.csv
 - **Source**: GRIDSMART optical detectors at Austin intersections
 - **Time Period**: January 1, 2019 - December 31, 2019

@@ -25,5 +25,5 @@ jupyter notebook notebooks/shap_analysis.ipynb
 
 We've included static PNG exports of the key SHAP plots in the Visuals folder:
 - newplot (10).png - 
-- newplot (11).png
+- newplot (11).png - SHAP Feature Dependence Plot - A scatter plot that visualizes how a model's prediction is affected by a specific feature
 - newplot(5).png - Comparison between Ridge Regression and Random Forest on R² and RMSE

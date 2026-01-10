@@ -142,7 +142,6 @@ Follow the logical progression:
 ## 📄 License
 All materials in this repository are available for academic and research purposes.
 
----
 
 *Last Updated: December 2025*  
 *Project: Austin Traffic Patterns Analysis*
